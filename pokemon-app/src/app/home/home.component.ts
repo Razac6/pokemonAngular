@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
           JavaScript
         </h1>
         <p> let's code with Psyduck</p>
-        <button type="button" routerLink="/pokemons" class="btn btn-outline-warning">Start</button>
+        <button type="button" routerLink="/dashboard" class="btn btn-outline-warning">Start</button>
       </div>
     </div>
   </div>
@@ -38,7 +38,13 @@ import { Component } from '@angular/core';
 
 .psy-mt{
     margin-top: 20%;
-}`]
+}
+
+button{
+  cursor: pointer;
+}
+
+`]
 })
 export class HomeComponent {
 
