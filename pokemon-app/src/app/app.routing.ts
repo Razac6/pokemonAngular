@@ -10,5 +10,5 @@ const routesConfig: Routes = [
 ];
 
 export const routerModule = RouterModule.forRoot(routesConfig, {
-  enableTracing: true
+  enableTracing: false
 });

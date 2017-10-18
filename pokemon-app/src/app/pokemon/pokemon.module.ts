@@ -4,11 +4,13 @@ import { PokemonService } from './pokemon.service';
 import { PokemonViewComponent } from './pokemon-view/pokemon-view.component';
 import { PokemonDashboardComponent } from './pokemon-dashboard/pokemon-dashboard.component';
 import { PokemonRouter } from './pokemon.routing';
+import {HttpModule} from '@angular/http';
 
 @NgModule({
   imports: [
     CommonModule,
-    PokemonRouter
+    PokemonRouter,
+    HttpModule
   ],
   declarations: [
   PokemonViewComponent,
